@@ -152,6 +152,9 @@ It compares the current month with historical trends and alerts users to the bes
      - Handling date and time operations, such as extracting the current month for forecasting insights.
    - **Files**: 
      - Main application file: Displays insights for the current month.
+    
+
+---
 
 
 You can find the demo here : https://youtu.be/AS_XeFh-4fQ
