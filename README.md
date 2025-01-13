@@ -47,9 +47,9 @@ Investment Insights:
 Based on the seasonal forecasting data, the app also provides suggestions on whether it’s a good time to invest in a given property.
 It compares the current month with historical trends and alerts users to the best and worst months for property investments.
 
-Here's the updated list of libraries, including **Pyppeteer** and **RandomForestRegressor** from **Scikit-learn**, along with their purposes:  
-
 ---
+
+### **List Of Technologies Used**
 
 ### 1. **Pandas**
    - **Usage**: 
