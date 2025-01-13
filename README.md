@@ -47,4 +47,4 @@ Investment Insights:
 Based on the seasonal forecasting data, the app also provides suggestions on whether it’s a good time to invest in a given property.
 It compares the current month with historical trends and alerts users to the best and worst months for property investments.
 
-<iframe width="560" height="315" src="https://youtu.be/AS_XeFh-4fQ" title="Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+You can find the demo here : https://youtu.be/AS_XeFh-4fQ
