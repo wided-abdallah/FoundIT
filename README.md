@@ -66,7 +66,7 @@ It compares the current month with historical trends and alerts users to the bes
      - Building the interactive user interface for the web app.
      - Displaying dropdowns, sliders, and results for predictions and forecasts.
    - **Files**: 
-     - Main application file (e.g., `testing.py`).
+     - Main application file ( `UI.py`).
 
 ---
 
@@ -135,7 +135,7 @@ It compares the current month with historical trends and alerts users to the bes
      - Handling file paths and directory structures.
      - Dynamically setting the working directory for imports and file operations.
    - **Files**: 
-     - Commonly used across multiple scripts (e.g., `testing.py`, `preprocessing.py`).
+     - Commonly used across multiple scripts.
 
 ---
 
@@ -143,7 +143,7 @@ It compares the current month with historical trends and alerts users to the bes
    - **Usage**: 
      - Modifying the Python path for dynamic imports based on the project's structure.
    - **Files**: 
-     - Commonly used in entry-point files (e.g., `testing.py`).
+     - Commonly used in entry-point files.
 
 ---
 
