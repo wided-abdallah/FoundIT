@@ -47,4 +47,111 @@ Investment Insights:
 Based on the seasonal forecasting data, the app also provides suggestions on whether it’s a good time to invest in a given property.
 It compares the current month with historical trends and alerts users to the best and worst months for property investments.
 
+Here's the updated list of libraries, including **Pyppeteer** and **RandomForestRegressor** from **Scikit-learn**, along with their purposes:  
+
+---
+
+### 1. **Pandas**
+   - **Usage**: 
+     - Data manipulation and analysis.
+     - Loading, preprocessing, and filtering datasets (e.g., real estate data).
+   - **Files**: 
+     - `preprocessing.py`: Handles CSV data processing.
+     - Main application files: For filtering and displaying data.
+
+---
+
+### 2. **Streamlit**
+   - **Usage**: 
+     - Building the interactive user interface for the web app.
+     - Displaying dropdowns, sliders, and results for predictions and forecasts.
+   - **Files**: 
+     - Main application file (e.g., `testing.py`).
+
+---
+
+### 3. **Prophet**
+   - **Usage**: 
+     - Time series forecasting for predicting seasonal price trends.
+     - Identifying the best and worst months for investment.
+   - **Files**: 
+     - `seasonal_forecasting.py`: Implements seasonal forecasting models.
+
+---
+
+### 4. **Scikit-learn**
+   - **Usage**: 
+     - Machine learning for real estate price predictions.
+     - **RandomForestRegressor**: Used to build a regression model for predicting property prices based on location, type, and nature.
+     - Encoding categorical data (e.g., `LabelEncoder`).
+   - **Files**: 
+     - `price_prediction.py`: Trains and uses the Random Forest model.
+
+---
+
+### 5. **Asyncio**
+   - **Usage**: 
+     - Enables asynchronous programming to efficiently scrape data from the **TunisieAnnonces** website.
+   - **Files**: 
+     - `tunisieannonces.py`: Implements asynchronous web scraping.
+
+---
+
+### 6. **Pyppeteer**
+   - **Usage**: 
+     - Automates a headless browser for dynamic website scraping, allowing interaction with JavaScript-rendered pages.
+   - **Files**: 
+     - `tunisieannonces.py`: Handles navigation, content rendering, and interaction on the **TunisieAnnonces** website.
+
+---
+
+### 7. **BeautifulSoup** (from `bs4`)
+   - **Usage**: 
+     - HTML parsing and extraction of relevant data during web scraping.
+   - **Files**: 
+     - `tunisieannonces.py`: Extracts data like property titles, prices, and descriptions.
+
+---
+
+### 8. **Requests**
+   - **Usage**: 
+     - Makes HTTP requests to fetch data from web pages.
+   - **Files**: 
+     - `tunisieannonces.py`: Retrieves HTML content from the **TunisieAnnonces** website.
+
+---
+
+### 9. **Numpy**
+   - **Usage**: 
+     - Numerical operations and array manipulations.
+     - Supporting data preprocessing and feature engineering tasks.
+   - **Files**: 
+     - Used wherever numerical calculations or array transformations are required (e.g., during preprocessing or predictions).
+
+---
+
+### 10. **Os**
+   - **Usage**: 
+     - Handling file paths and directory structures.
+     - Dynamically setting the working directory for imports and file operations.
+   - **Files**: 
+     - Commonly used across multiple scripts (e.g., `testing.py`, `preprocessing.py`).
+
+---
+
+### 11. **Sys**
+   - **Usage**: 
+     - Modifying the Python path for dynamic imports based on the project's structure.
+   - **Files**: 
+     - Commonly used in entry-point files (e.g., `testing.py`).
+
+---
+
+### 12. **Datetime** (from Python Standard Library)
+   - **Usage**: 
+     - Handling date and time operations, such as extracting the current month for forecasting insights.
+   - **Files**: 
+     - Main application file: Displays insights for the current month.
+
+
 You can find the demo here : https://youtu.be/AS_XeFh-4fQ
