@@ -156,5 +156,6 @@ It compares the current month with historical trends and alerts users to the bes
 
 ---
 
+To run the app type in the command : streamlit run MainPackage/Pages/UI.py
 
 You can find the demo here : https://youtu.be/AS_XeFh-4fQ
